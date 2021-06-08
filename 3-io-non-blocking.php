@@ -26,9 +26,9 @@ do {
         $content = stream_get_contents($stream);
 
         // Jump HTTP headers, if is a HTTP stream
-        $endHTTPPosition = strpos($content, "\r\n\r\n");
-        if ($endHTTPPosition !== false) {
-            echo substr($content, $endHTTPPosition + 4); // 4 =  \r\n\r\n
+        $endHTTPHeadersPosition = strpos($content, "\r\n\r\n");
+        if ($endHTTPHeadersPosition !== false) {
+            echo substr($content, $endHTTPHeadersPosition + 4); // 4 =  \r\n\r\n
         } else {
             echo $content;
         }
