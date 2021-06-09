@@ -52,3 +52,19 @@ composer require react/stream:^1.1.1
 ```
 
 https://www.reactivemanifesto.org/
+
+## CLASS-5
+
+```sh
+-> php -S localhost:8000
+```
+
+http://localhost:8000/
+
+http://socketo.me/ (Ratchet)
+
+```sh
+composer require cboden/ratchet
+```
+
+https://www.swoole.co.uk/
