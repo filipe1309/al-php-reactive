@@ -14,13 +14,11 @@ This project was developed following Alura's [PHP Reativo: Programação assínc
 - [PHP](https://www.php.net/)
 - [ReactPHP](https://reactphp.org/)
 - [Ratchet](http://socketo.me/)
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
 
 ## :scroll: Requirements
 
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
+- [PHP](https://www.php.net/)
+- [Composer](https://getcomposer.org/)
 
 ## :cd: Installation
 
@@ -31,14 +29,6 @@ git clone git@github.com:filipe1309/al-php-reactive.git
 ```sh
 cd al-php-reactive
 ```
-
-## :runner: Running
-
-```sh
-docker-compose up
-```
-
-> Access http://localhost:8000
 
 ## License
 
