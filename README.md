@@ -12,6 +12,7 @@ This project was developed following Alura's [PHP Reativo: Programação assínc
 ## :computer: Technologies
 
 - [PHP](https://www.php.net/)
+- [ReactPHP](https://reactphp.org/)
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
