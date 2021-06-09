@@ -35,3 +35,20 @@ http://localhost:8080/http-server.php
 php 4-socket-server.php
 telnet localhost 8001
 ```
+
+## CLASS-4
+
+https://reactphp.org/
+https://reactphp.org/event-loop/
+https://reactphp.org/stream/
+
+```sh
+composer require react/event-loop:^1.1.1
+composer require react/stream:^1.1.1
+
+-> php 3-socket-server.php
+-> php -S localhost:8000
+-> php 4-react-io-nb.php
+```
+
+https://www.reactivemanifesto.org/
