@@ -1,6 +1,6 @@
 <?php
 
-echo "Socket Server running" . PHP_EOL;
+echo "Socket Server running on localhost:8001" . PHP_EOL;
 
 $socket = stream_socket_server('tcp://localhost:8001');
 
